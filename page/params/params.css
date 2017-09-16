@@ -1,0 +1,109 @@
+body{
+	margin: 0px;
+	background-image: url(../../img/wood.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+	color: #3b3a36;
+	min-width: 800px;
+}
+
+.header{
+	margin: 0px;
+	height: 142px;
+	width: 100%;
+	background-color: #1a1e21;
+}
+
+#title{
+	font-size: 118px;
+    text-shadow: 5px 5px 10px black;
+	color: white;
+    font-family: 'Bungee';
+    text-decoration: none;
+}
+
+.header_menu{
+	color: white;
+	background-color: rgba(255, 242, 255, 0.4);
+	padding: 5px;
+	font-size: 20px;
+	margin-bottom: 15px;
+	z-index:100;
+}
+
+#like_menu_header{
+	margin: 5px;
+	text-decoration: none;
+	color: #3b3a36;
+}
+
+/*----------------------------------------------------------------*/
+
+.div_params1{
+    margin-top: 140px;
+}
+
+.div_mod{
+   	color: white;
+    background-color: rgba(0, 0, 40, 0.6);
+    padding: 14px;
+    width: 300px;
+    font-family: 'Hind';
+    text-shadow: 5px 5px 10px black;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    left: -21px;
+}
+
+.div_del{
+    margin-left: 110px;
+   	color: white;
+    background-color: rgba(0, 0, 40, 0.6);
+    padding: 15px;
+    width: 300px;
+    font-family: 'Hind';
+    text-shadow: 5px 5px 10px black;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    left: -21px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+#box{
+    text-align: center;
+}
+
+#box2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#click{
+    margin-top: 27px;
+}
+
+#click2{
+    margin-top: -5px;
+}
+
+#ident2{
+    color: red;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#case_check{
+    display: inline-block;
+}
+
+#ident{
+	font-size: 22px;
+}

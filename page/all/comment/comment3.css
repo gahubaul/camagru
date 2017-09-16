@@ -1,0 +1,150 @@
+body{
+	margin: 0px;
+	background-image: url(../../../img/wood.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+	color: #3b3a36;
+	min-width: 800px;
+}
+
+.header{
+	margin: 0px;
+	height: 142px;
+	width: 100%;
+	background-color: #1a1e21;
+}
+
+#title{
+	font-size: 118px;
+    text-shadow: 5px 5px 10px black;
+	color: white;
+    font-family: 'Bungee';
+    text-decoration: none;
+}
+
+.header_menu{
+	color: white;
+	background-color: rgba(255, 242, 255, 0.4);
+	padding: 5px;
+	font-size: 20px;
+	margin-bottom: 15px;
+	z-index:100;
+}
+
+
+#like_menu_header{
+	margin: 5px;
+	text-decoration: none;
+	color: #3b3a36;
+}
+
+#video{
+	margin: 50px auto 50px auto;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px black;
+}
+
+#canvas{
+	margin: 50px auto 50px auto;
+	border-radius: 10px;
+	background-image: url(../../img/no_photo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.photo{
+	margin-top: 65px;
+	padding: 20px;
+	display: inline-block;
+}
+
+.photo_save{
+	margin: 0px 0px 20px 0px;
+	display: inline-block;
+}
+
+#save_photo_img{
+	margin: 10px auto -10px auto;
+	display: block;
+}
+#click{
+	color: white;
+	text-indent: -9999px;
+	border: 1px solid black;
+    border-radius: 10px;
+    width: 90px;
+	 margin: 0px;
+    margin-bottom: -19px;
+
+}
+
+#like_dislike{
+	margin: 0px;
+	z-index: -1;
+}
+
+#form_post{
+	margin-bottom: 0px;
+}
+
+#retour_galerie{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+#div_retour_galerie{
+    padding: 10px;
+    background-color: rgba(255, 242, 255, 0.4);
+}
+
+.comment_photo{
+	margin: 20px auto 0px auto;
+    width: 500px;
+    min-height: 200px;
+    padding: 20px;
+    text-align: left;
+    background-color: rgba(255, 242, 255, 0.4);
+}
+
+.input_comment{
+    width: 540px;
+    height: 30px;
+    padding: 5px;
+    text-align: left;
+    
+}
+
+#com{
+    margin: 0px;
+    margin-top: 2px;
+    margin-left: 25px;
+	margin-bottom: 10px;
+	max-width: 500px;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
+}
+
+.delete{
+	margin-left: 5px;
+	color: darkred;
+}
+#ok_button{
+	margin-top: 15px;
+}
+
+#like_info{
+	display: inline-block;
+    padding: 8px;
+    border-radius: 26px;
+    background-color: antiquewhite;
+}
+#hr{
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	width: 100%;
+}

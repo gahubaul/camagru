@@ -1,0 +1,155 @@
+body{
+	margin: 0px;
+	background-image: url(../../img/wood.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+	min-width: 800px;
+	border: none;
+}
+
+.header{
+	margin: 0px;
+	height: 142px;
+	width: 100%;
+	background-color: #1a1e21;
+}
+
+#title{
+	
+    font-size: 118px;
+    text-shadow: 5px 5px 10px black;
+	color: white;
+    font-family: 'Bungee';
+    text-decoration: none;
+}
+
+#ident{
+    margin-top: 22px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+#ident1{
+    margin-top: 22px;
+	margin-bottom: 12px;
+	color: white;
+}
+
+#ident2{
+    margin-top: 22px;
+	margin-bottom: -10px;
+	color: white;
+}
+
+#ident3{
+    margin-top: 22px;
+	margin-bottom: -10px;
+	color: white;
+}
+
+#ident4{
+	margin-bottom: -10px;
+	color: white;
+}
+
+.alert{
+	width: 340px;
+	padding: 3px;
+	margin: 0px auto -50px auto;
+	position: relative;
+	top: -3000px;
+	font-family: Cabin, sans-serif;
+	animation-name: disparait;
+    animation-duration: 5s;
+}
+@keyframes disparait{
+	0%{
+		top: 0px;
+	}
+	99%{
+		top: 0px;
+	}
+	100%{
+		top: 3000px;
+	}
+}
+
+
+.cube1{
+	color: white;
+    background-color: rgba(0, 0, 40, 0.6);
+    padding: 14px;
+    width: 300px;
+    font-family: 'Hind';
+	text-shadow: 5px 5px 10px black;
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+    left: -21px;
+}
+
+.cube2{
+	color: white;
+    background-color: rgba(0, 0, 40, 0.6);
+    width: 345px;
+    font-family: 'Hind';
+	text-shadow: 5px 5px 10px black;
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+	top: -301px;
+}
+
+.cube3{
+	color: white;
+    background-color: rgba(0, 0, 40, 0.6);
+    width: 345px;
+    font-family: 'Hind';
+	text-shadow: 5px 5px 10px black;
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+	top: -275px;
+    left: 166px;
+}
+
+input{
+	text-align: center;
+	margin-top: -5px;
+}
+
+.bigdiv{
+	width: 800px;
+	margin: 150px auto 0px auto;
+	align-content: center;
+	text-align: center;
+    height: 683px;
+}
+
+box2{
+	margin-top: -50px;
+}
+
+#big_div{
+	background-color: red;
+}
+#footer{
+	width: 100vw;
+	height: 30px;
+	background-color: #1a1e21;
+	color: whitesmoke;
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	padding-top: 13px;
+}
+
+#body{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
